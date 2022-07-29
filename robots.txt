@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://vaibhavsys.github.io/sitemap.xml
+Sitemap: vaibhavsys.is-a.dev/sitemap.xml
