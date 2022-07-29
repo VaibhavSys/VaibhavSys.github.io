@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="position-relative" itemscope itemtype="http://schema.org/WebPage" lang="en" data-theme="dynamic" data-palette="purple">
+<html class="position-relative" itemscope itemtype="http://schema.org/WebPage" lang="en" data-theme="auto" data-palette="purple">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,7 @@
   <meta name="twitter:image" content="vaibhavsys.is-a.dev/images/logo.png"/>
   <link rel="manifest" href="/vaibhavsys.is-a.dev/manifest.json">
 
-<link data-precache rel="stylesheet" href="/vaibhavsys.is-a.dev/assets/main/bundle.min.ebd602dc5fee50207727c9111f6f4dbef217511009cb3625d9c2b66a1cac326d.css" integrity="sha256-69YC3F/uUCB3J8kRH29NvvIXURAJyzYl2cK2ahysMm0=" crossorigin="anonymous">
+<link data-precache rel="stylesheet" href="/vaibhavsys.is-a.dev/assets/main/bundle.min.04c1c23939591692c04cad71fa4502728518d65d46cdf359ebf7f2546d65f45e.css" integrity="sha256-BMHCOTlZFpLATK1x+kUCcoUY1l1GzfNZ6/fyVG1l9F4=" crossorigin="anonymous">
 
     <link data-precache rel="stylesheet" href="/vaibhavsys.is-a.dev/assets/viewer/bundle.min.6d0fc65b8b058ac563091dc5c36f61afba5dd705058680aa24f1d5a3bcf0064d.css" integrity="sha256-bQ/GW4sFisVjCR3Fw29hr7pd1wUFhoCqJPHVo7zwBk0=" crossorigin="anonymous">
 </head>
@@ -50,7 +50,7 @@
     </button>
 <a class="navbar-brand d-flex align-items-center flex-grow-1 flex-lg-grow-0 text-lg-start text-center ms-2 ms-lg-0 mx-auto me-lg-2" href="vaibhavsys.is-a.dev">
     <picture><img class="logo " alt="Logo" src="vaibhavsys.is-a.dev/images/logo.webp" loading="lazy" width="400" height="400" />
-</picture>Vaibhav
+</picture>HBS
 </a>
     <button class="navbar-toggler order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarMenus"
       aria-controls="navbarMenus" aria-expanded="false" aria-label="Toggle navigation">
@@ -118,7 +118,7 @@
         <ul class="navbar-nav flex-row flex-wrap align-items-center ms-md-auto">
 <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
 <nav class="social-links nav justify-content-center row">
-      <a class="nav-link social-link col-6 col-lg-auto p-1" target="_blank" href="https://github.com/VaibhavSys" title="GitHub" rel="noopener noreferrer">
+      <a class="nav-link social-link col-6 col-lg-auto p-1" target="_blank" href="https://github.com/razonyang/hugo-theme-bootstrap" title="GitHub" rel="noopener noreferrer">
         <i class="fa-fw fab fa-github"></i>
         <span class="ms-1 d-lg-none">GitHub</span>
       </a>
@@ -267,7 +267,7 @@
 </li>
 <li class="nav-item dropdown col-6 col-lg-auto">
     <a class="nav-link px-0 py-2 px-lg-1" href="#" id="modeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="mode-icon fas fa-fw fa-" id="modeIcon"></i>
+        <i class="mode-icon fas fa-fw fa-adjust" id="modeIcon"></i>
         <span class="d-lg-none">Mode</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="modeDropdown">
@@ -281,7 +281,7 @@
                 <i class="mode-icon fas fa-fw fa-moon"></i> Dark
             </button>
         </li>
-        <li class="mode-item" data-color-mode="auto" data-icon="adjust">
+        <li class="mode-item active" data-color-mode="auto" data-icon="adjust">
             <button class="dropdown-item">
                 <i class="mode-icon fas fa-fw fa-adjust"></i> Auto
             </button>
@@ -359,7 +359,9 @@
 
     
 
-    
+    <a class="action btn-reward" role="button" data-bs-toggle="modal" data-bs-target="#rewardModal" title="Buy me a coffee">
+  <i class="fas fa-fw fa-coffee"></i>
+</a>
     <a class="action" href="#post-copyright" role="button" aria-label="Copyright" title="Copyright">
   <i class="fas fa-fw fa-copyright"></i>
 </a>
@@ -377,7 +379,7 @@
   
   
   <span class="post-date me-1 mb-1" title="created on 0001-01-01 00:00:00 &#43;0000 UTC, updated on 2022-07-29 13:26:04 &#43;0000 UTC.">
-    Jan 1, 0001
+    January 1, 1
   </span>
   <span class="post-reading-time me-1 mb-1">
     1 min read
@@ -388,6 +390,31 @@
     </a>
 </div>
 <div class="post-content mb-3"><p>A fast, responsive and feature-rich Hugo theme for blog and documentations site.</p>
+</div><div class="modal fade" id="rewardModal" tabindex="-1" aria-labelledby="rewardModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content surface">
+      <div class="modal-header">
+        <h5 class="modal-title text-surface" id="rewardModalLabel"><i class="fas fa-fw fa-coffee me-1"></i>Buy me a coffee</h5>
+        <a href="#" data-bs-dismiss="modal" class="btn-close" aria-label="Close"></a>
+      </div>
+      <div class="modal-body">
+        <ul class="nav nav-tabs mb-3" role="tablist"><li class="nav-item text-nowrap" role="presentation">
+            <a class="nav-link active" id="reward-alipay-tab" data-bs-toggle="tab" href="#reward-alipay" role="tab" aria-controls="reward-alipay" aria-selected="true">
+              <i class="fab fa-fw fa-alipay me-1"></i>Alipay
+            </a>
+          </li><li class="nav-item text-nowrap" role="presentation">
+            <a class="nav-link" id="reward-wechat-tab" data-bs-toggle="tab" href="#reward-wechat" role="tab" aria-controls="reward-wechat" aria-selected="true">
+              <i class="fab fa-fw fa-weixin me-1"></i>WeChat
+            </a>
+          </li></ul>
+        <div class="tab-content" id="rewardTabContent"><div class="tab-pane fade post-reward-content text-center show active" id="reward-alipay" role="tabpanel" aria-labelledby="reward-alipay-tab">
+            <img class="img-fluid post-reward-img" src="vaibhavsys.is-a.dev/images/reward/alipay.png" loading="lazy" data-viewer-invisible />
+          </div><div class="tab-pane fade post-reward-content text-center show" id="reward-wechat" role="tabpanel" aria-labelledby="reward-wechat-tab">
+            <img class="img-fluid post-reward-img" src="vaibhavsys.is-a.dev/images/reward/wechat.png" loading="lazy" data-viewer-invisible />
+          </div></div>
+      </div>
+    </div>
+  </div>
 </div></div></article><div class="post-copyright mb-3 row card component" id="post-copyright">
     <div class="card-header">
         <h2 class="card-title fs-4 my-2 text-surface">Copyright</h2>
@@ -408,14 +435,14 @@
           <a class="post-title" href="vaibhavsys.is-a.dev/news/2022/07/more-image-processing-methods/">
             More Image Processing Methods
           </a>
-          <span class="post-meta post-date float-end">Jul 8, 2022
+          <span class="post-meta post-date float-end">July 8, 2022
 </span>
           <div class="post-summary my-3"><p>Since <code>v1.0.0-alpha.1</code>, HBS supports much more image processing methods. Such as Crop, Fit and Fill images. You can also apply filters on an image.</p><div><a class="btn btn-sm btn-outline-primary btn-read-more" href="vaibhavsys.is-a.dev/news/2022/07/more-image-processing-methods/">Read More</a></div></div>
         </li><li class="mb-3 border-bottom">
           <a class="post-title" href="vaibhavsys.is-a.dev/blog/readme/">
             README
           </a>
-          <span class="post-meta post-date float-end">Apr 17, 2022
+          <span class="post-meta post-date float-end">April 17, 2022
 </span>
           <div class="post-summary my-3"><p>See also <a href="https://github.com/razonyang/hugo-theme-bootstrap-skeleton/blob/main/README.md" target="_blank" rel="noopener noreferrer">README.md<i class="fas fa-external-link-square-alt ms-1"></i></a>.</p></div>
         </li></ul>
@@ -425,10 +452,10 @@
     <h2 class="card-title my-2 fs-4 text-surface">Comments</h2>
   </div>
   <div class="card-body"><script src="https://utteranc.es/client.js"
-  repo="vaibhavsys/vaibhavsys.github.io-comments"
+  repo="razonyang/hugo-theme-bootstrap-skeleton"
   issue-term="pathname"
   label="comment"
-  theme="preferred-color-scheme"
+  theme="github-light"
   crossorigin="anonymous"
   async>
 </script>
@@ -444,16 +471,16 @@
     </div>
     <div class="card-body text-secondary-on-surface">
         <ul class="list-unstyled"><li class="mb-1">
-                <a href="https://github.com/VaibhavSys/vaibhavsys.github.io/blob/master/content/docs/introduction/index.md" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/razonyang/hugo-theme-bootstrap-skeleton/blob/master/content/docs/introduction/index.md" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-fw fa-file-archive"></i> View page source
                 </a>
             </li>
             <li class="mb-1">
-                <a href="https://github.com/VaibhavSys/vaibhavsys.github.io/edit/master/content/docs/introduction/index.md" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/razonyang/hugo-theme-bootstrap-skeleton/edit/master/content/docs/introduction/index.md" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-fw fa-edit"></i> Edit this page
                 </a>
             </li><li class="mb-1">
-                <i class="fas fa-fw fa-code"></i> <a href="https://github.com/VaibhavSys/vaibhavsys.github.io/commit/3d41339e2e5b91fddff9097d61765fe56e62cb5a" target="_blank" rel="noopener noreferrer">3d41339</a>
+                <i class="fas fa-fw fa-code"></i> <a href="https://github.com/razonyang/hugo-theme-bootstrap-skeleton/commit/3d41339e2e5b91fddff9097d61765fe56e62cb5a" target="_blank" rel="noopener noreferrer">3d41339</a>
             </li>
             <li class="mb-1">
                 <i class="fas fa-fw fa-history"></i> 29/07/2022, 18:56:04 PM
@@ -607,7 +634,7 @@
 <div class="powered-by mb-2">
   Powered by <a class="text-primary" href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> and the <a class="text-primary" href="https://github.com/razonyang/hugo-theme-bootstrap" target="_blank" rel="noopener noreferrer">HBS</a> theme.
 </div></footer>
-<script data-precache src="/vaibhavsys.is-a.dev/assets/main/bundle.min.4c28895d63a65a40b5872a8e70b672c2ee843f26e099d12b3df55fbc5acc342b.js" integrity="sha256-TCiJXWOmWkC1hyqOcLZywu6EPybgmdErPfVfvFrMNCs=" crossorigin="anonymous" defer></script><script data-precache src="/vaibhavsys.is-a.dev/assets/icons/bundle.min.9b65a1892e3a9ee67ad669fdde6abd4963c890151073f181b3e730bce85680a6.js" integrity="sha256-m2WhiS46nuZ61mn93mq9SWPIkBUQc/GBs&#43;cwvOhWgKY=" crossorigin="anonymous" defer></script>
+<script data-precache src="/vaibhavsys.is-a.dev/assets/main/bundle.min.6d6f00c108860b7c7962a21869c260e6415b2013a58ff8ab6aa5f70cb4398064.js" integrity="sha256-bW8AwQiGC3x5YqIYacJg5kFbIBOlj/iraqX3DLQ5gGQ=" crossorigin="anonymous" defer></script><script data-precache src="/vaibhavsys.is-a.dev/assets/icons/bundle.min.9b65a1892e3a9ee67ad669fdde6abd4963c890151073f181b3e730bce85680a6.js" integrity="sha256-m2WhiS46nuZ61mn93mq9SWPIkBUQc/GBs&#43;cwvOhWgKY=" crossorigin="anonymous" defer></script>
 <script data-precache src="/vaibhavsys.is-a.dev/assets/viewer/bundle.min.9f713149f059d05fcb65e7f7c27308e61c384500e80ab1c333c2510a36a5d70c.js" integrity="sha256-n3ExSfBZ0F/LZef3wnMI5hw4RQDoCrHDM8JRCjal1ww=" crossorigin="anonymous" defer></script><script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
