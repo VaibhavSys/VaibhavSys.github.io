@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hugo Bootstrap Skeleton</title>
-    <link>vaibhavsys.is-a.dev/categories/</link>
+    <link>https://vaibhavsys.github.io/categories/</link>
     <description>Recent content in Categories on Hugo Bootstrap Skeleton</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2016-2022 Razon Yang. All Rights Reserved.</copyright><atom:link href="vaibhavsys.is-a.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2016-2022 Razon Yang. All Rights Reserved.</copyright><atom:link href="https://vaibhavsys.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image</title>
-      <link>vaibhavsys.is-a.dev/categories/image/</link>
+      <link>https://vaibhavsys.github.io/categories/image/</link>
       <pubDate>Fri, 08 Jul 2022 11:34:47 +0800</pubDate>
       
-      <guid>vaibhavsys.is-a.dev/categories/image/</guid>
+      <guid>https://vaibhavsys.github.io/categories/image/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Installation</title>
-      <link>vaibhavsys.is-a.dev/categories/installation/</link>
+      <link>https://vaibhavsys.github.io/categories/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>vaibhavsys.is-a.dev/categories/installation/</guid>
+      <guid>https://vaibhavsys.github.io/categories/installation/</guid>
       <description></description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Hugo Bootstrap Skeleton</title>
-    <link>vaibhavsys.is-a.dev/authors/</link>
+    <link>https://vaibhavsys.github.io/authors/</link>
     <description>Recent content in Authors on Hugo Bootstrap Skeleton</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2016-2022 Razon Yang. All Rights Reserved.</copyright>
-    <lastBuildDate>Fri, 08 Jul 2022 11:34:47 +0800</lastBuildDate><atom:link href="vaibhavsys.is-a.dev/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jul 2022 11:34:47 +0800</lastBuildDate><atom:link href="https://vaibhavsys.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Razon Yang</title>
-      <link>vaibhavsys.is-a.dev/authors/razonyang/</link>
+      <link>https://vaibhavsys.github.io/authors/razonyang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>vaibhavsys.is-a.dev/authors/razonyang/</guid>
+      <guid>https://vaibhavsys.github.io/authors/razonyang/</guid>
       <description></description>
     </item>
     
