@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://vaibhavsys.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2022-07-22T13:05:27+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://vaibhavsys.github.io/zh-cn/sitemap.xml</loc>
-    
-      <lastmod>2022-07-14T14:34:04+08:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://vaibhavsys.github.io/authors/</loc>
+  </url><url>
+    <loc>https://vaibhavsys.github.io/categories/</loc>
+  </url><url>
+    <loc>https://vaibhavsys.github.io/series/</loc>
+  </url><url>
+    <loc>https://vaibhavsys.github.io/tags/</loc>
+  </url><url>
+    <loc>https://vaibhavsys.github.io/</loc>
+  </url>
+</urlset>
