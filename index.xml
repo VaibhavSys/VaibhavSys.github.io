@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vaibhav - Software Developer</title>
-    <link>https://vaibhavsys.github.io/</link>
+    <link>https://vaibhavsys.is-a.dev/</link>
     <description>Recent content on Vaibhav - Software Developer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2022-2022 Vaibhav Dhiman. All Rights Reserved.</copyright><atom:link href="https://vaibhavsys.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2022-2022 Vaibhav Dhiman. All Rights Reserved.</copyright><atom:link href="https://vaibhavsys.is-a.dev/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
 
