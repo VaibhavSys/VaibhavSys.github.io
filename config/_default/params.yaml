@@ -5,17 +5,14 @@ mainSections:
 
 # titleSeparator: | # Title separator. Default to -.
 
-description: An extreme fast, responsive and feature-rich blog theme for Hugo
-keywords: Hugo, Bootstrap, Blog Theme
+description: Blog website and Portfolio of Vaibhav Dhiman
+keywords: Vaibhav Dhiman, Vaibhav, Software Developer, Hugo, Blog, Portfolio
 # images:
 #   - site-feature-image.jpg
 
-# metaRobots: noindex, nofollow # Default value for Meta Tag robots
-# metaRobots:  # disable Meta Tag robots
-
-# logo: images/logo.png # Logo image. Default to images/logo.webp.
+logo: images/logo.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
-brand: HBS
+# brand: 
 
 palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
@@ -24,7 +21,7 @@ palette: purple # Default palette. Optional. You'll need to clear the browser ca
 #  - purple
 #  - brown
 
-# color: dark # light, dark or dynamic. Default to dynamic.
+color: dark # light, dark or dynamic. Default to dynamic.
 
 # fullWidth: true # Full width.
 # fixedHeader: false # Turn on/off fixed header.
@@ -32,7 +29,7 @@ palette: purple # Default palette. Optional. You'll need to clear the browser ca
 # dateFormat: Jan 2, 2006
 
 # Google Adsense
-googleAdsense: 
+# googleAdsense: 
 
 # math: true # Enable math globally.
 # toc: false # Disable TOC globally.
@@ -102,28 +99,28 @@ analytics:
   # baidu:  # Baidu Analytics
 
 # Site verification
-siteVerification:
-  google: 
-  bing: 
-  baidu: 
-  baiduUnion:  # Baidu Union
-  so: 
-  sogou: 
-  shenma: 
+# siteVerification:
+#   google: 
+#   bing: 
+#   baidu: 
+#   baiduUnion:  # Baidu Union
+#   so: 
+#   sogou: 
+#   shenma: 
 
 creativeCommons:
-  # by: true # Credit must be given to you, the creator.
+  by: true # Credit must be given to you, the creator.
   # nc: true # Only noncommercial use of your work is permitted.
   # nd: true # No derivatives or adaptations of your work are permitted.
   # sa: true # Adaptations must be shared under the same terms.
 
 utterances:
-  repo: razonyang/hugo-theme-bootstrap-skeleton # Replace with your repository.
+  repo: VaibhavSys/VaibhavSys.github.io-comments # Replace with your repository.
   #issueTerm: pathname # pathname, url, title, og:title
   label: comment
   # By default, light and dark mode correspond to github-light and github-dark, respectively.
   # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
-  #theme:  
+  theme:  prefered-color-scheme
 
 search:
   paginate: 5 # Pagination. Default to 10.
@@ -138,9 +135,9 @@ search:
     # distance: 100
     # useExtendedSearch: true
 
-reward:
-  alipay: images/reward/alipay.png
-  wechat: images/reward/wechat.png
+# reward:
+#   alipay: images/reward/alipay.png
+#   wechat: images/reward/wechat.png
   #paypal: images/reward/paypal.png
   #patreon: images/reward/patreon.png
   #liberapay: images/reward/liberapay.png
@@ -158,7 +155,7 @@ fontSize:
 pwa:
   manifest:
     # name:  # Default to site title.
-    short_name: HBS
+    # short_name: Va
     # display: fullscreen # Default to standalone.
     # description:  # Default to site description.
     # theme_color: 
@@ -172,19 +169,17 @@ pwa:
     #   sizes: 144x144
     #   src: /images/icons/icon-144x144.png
 
-contact:
-  endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
+# contact:
+#   endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
   # file: true # Enable file upload
   # fileField: image # The name of file field.
 
 repo:
-  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
+  url: https://github.com/VaibhavSys/VaibhavSys.github.io
   # branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
 
 topAppBar:
   social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+    github: VaibhavSys
